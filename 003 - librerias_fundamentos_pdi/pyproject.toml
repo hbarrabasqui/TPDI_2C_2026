@@ -1,0 +1,17 @@
+[project]
+name = "librerias-fundamentos-pdi"
+version = "0.1.0"
+description = "Entorno de laboratorio para fundamentos de procesamiento digital de imagenes"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "opencv-python",
+    "pillow",
+    "scikit-image",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]

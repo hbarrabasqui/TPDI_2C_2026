@@ -1,0 +1,34 @@
+# Entorno virtual
+.venv*/
+venv*/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# VS Code y otros editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Salidas generadas durante los laboratorios
+save/
+output/
+results/
+
+# Logs y archivos temporales
+*.log
+*.tmp
